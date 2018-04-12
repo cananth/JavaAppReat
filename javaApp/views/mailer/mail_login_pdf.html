@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>PDF Download</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<META http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv = "content-script-type" content = "text/javascript"/>
+				 <link rel = "stylesheet" type="text/css" href = "/Asset/assets/?file=common.css"/>
+    <script  src="/Asset/assets/?file=paging.js"></script>
+	</head>
+	<body class="w3-row">
+		<div class="wrapper">
+			<div class="header2">
+				<font class = "fc">Java</font>
+				<font class = "fd">Email PDF</font>
+					<div class="dropdown">
+						<button class="dropbtn" onclick="document.getElementById('myModal').style.display='block';" style="width:auto;"><img class="header-img"src="/Asset/assets/?file=guest.png"/><a href = "/users/edit"><p id="user">Guest</p></a></button>
+							<div class="dropdown-content">
+								<a onclick="goBack()" href="#">
+									<img class="loghistory-img" src="/Asset/assets/?file=back.jpg" alt="Back" /><pre id="log-his">Back</pre>
+</a>								<a href="/Program/index/?order=ASC">
+									<img class="loghistory-img" src="/Asset/assets/?file=home.png" alt="Home" /><pre id="log-his">Home</pre>
+</a>								<a href="/User/logout/logout">
+									<img class="loghistory-img" src="/Asset/assets/?file=logout.jpg" alt="Logout" /><pre id="log-his">Logout</pre>
+</a>							</div>
+					</div>
+			</div>
+		<form id="form" action = "/Mail/mailLoginPdf/?">
+			<div class = "container">	
+				<center>
+					<labeL id ="maillabel"><b>TO:</b></labeL><br> <input type="email" id="mail" placeholder="Enter email" name = "to"></br></br>
+					<label id="namelabel"><b>CC:</b></label><br> <input type="email" id="mail" placeholder="Enter email" name = "cc" ></br></br>
+					<label id="subjectlabel"><b>BCC:</b></label><br> <input type="email" id="mail" placeholder="Enter email" name = "bcc"></br></br>
+					<label id="messagelabel"><b>MESSAGE:</b></label><br> <textarea id="mail" rows="2" cols="83" placeholder="enter message" name="message"></textarea></br></br>
+					<label id="attachment"><b>ATTACHMENT:</b></label><br> <input id="mail" type="text" id="attach" name = "attachment" value="history.pdf" ></br></br>
+					<button onclick="goBack()">cancel</button> &nbsp;<button type="submit">Submit</button>	
+				</center>
+			</div>
+		</form>
+		<div id="myModal" class="modal">
+		 <div id="myModal" class="modal">
+		<div class="modal-content">
+			<form class="modal-content animate" action = "/User/update/?">
+				<center><h>User Profile</h></center>
+				Name:<input type="text" name="Username" value = "username" ></br></br>
+				Email:<input type="text" name="Email" value= "email" readonly ></br></br>
+				<label>Address</label><br> <textarea name = "address" value= "" id = "address"></textarea>
+				<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+				<script  src="/AssetController/assets/?file=maps.js"></script>
+				<div id="mapCanvas"></div>
+					<div id="infoPanel">
+						<div id="markerStatus"></div>
+					</div>
+				<textarea  placeholder="latlang" style = "display:none" readonly  id = "info" name="latitude"></textarea>
+				<button type="submit">Update</button> <button type="button" onclick="document.getElementById('myModal').style.display='none';">Cancel</button>
+			</form>
+		</div>
+
+
+</div>
+		<div class="footer">
+			<p id="top">Ananth Kumar  Copyright&copy;2017</p>
+			<br>
+			<p id="move"></p>
+				<div class="move-right">
+					<div id="move-top">
+						<a href = "https://www.facebook.com/cananthkumar" target = "_blank"><img class="footer-img" src = "/Asset/assets/?file=facebook.png"></a>
+						<a href = "https://plus.google.com/u/0/" target = "_blank"><img class="footer-img" src = "/Asset/assets/?file=googleplus.png"></a>
+						<a href = "https://www.linkedin.com/feed/" target = "_blank"><img class="footer-img" src = "/Asset/assets/?file=linkendin.png"></a></div>
+				</div>
+		</div>
+ </body>
+</html>

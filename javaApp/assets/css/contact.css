@@ -1,0 +1,333 @@
+html
+{
+	overflow-x: hidden;
+}
+body
+{
+background-color:cadetblue;;
+}
+div.container 
+{
+	/*! border: 2px solid gray; */
+	color: black;
+	margin: 65px;
+	height: 70%;
+	padding-top: 2%;
+	margin-top: 6%;
+}
+div.footer 
+{
+	border: 2px solid gray;
+background-color: black;
+color: white;
+position: fixed;
+width: 100%;
+bottom: 0;
+	margin-left: -11px;
+}
+.footer-img
+{
+	height:40px;
+	width:40px;
+}		 
+#move-top 
+{
+	margin-top:-15px;
+}
+#top 
+{
+	margin-top:4px;
+	float:left;
+	margin-top: 18px;
+}
+#move
+{
+	float:left;
+	margin-left:-119px;
+}	
+div.move-right
+{
+	float:right;
+}
+input[type=text], input[type=password]  
+{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+button 
+{
+	background-color: black;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	width: 13%;
+	font-size:12px;
+	color:white;
+	margin: 0px 3px;
+	text-decoration:none;
+}	
+	 
+	
+table {
+margin-top: -280px;
+}
+#mail
+{
+	width:49%;
+}
+
+.header-img
+{
+	width: 24%;
+margin-left: -26%;
+}
+.dropdown-img
+{
+	width: 23%;
+	margin-left: 14%;
+}
+div.header 
+{
+	background-color: black;
+color: white;
+font-size: 26px;
+margin: -6% -7px;
+display: inline-flex;
+width: 100%;
+position: fixed;
+box-sizing: border-box;
+min-width: auto;
+}
+#maillabel, #namelabel
+{
+	margin-right:44%;
+}
+#subjectlabel, #messagelabel
+{
+	margin-right:42%;
+}
+
+.dropbtn 
+{
+	background-color: #4CAF50;
+color: white;
+padding: 11px;
+font-size: 14px;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+.dropdown 
+{
+	display: inline-block;
+	margin-left:auto;
+}
+.dropdown-content
+{
+	display: none;
+position: absolute;
+background-color: grey;
+width: 13%;
+font-size: 18px;
+}
+.dropdown-content a
+{
+	color: white;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+	float:right;
+	font-size:54%	
+}
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+
+font.fd
+ {
+	margin-left: 38%;
+	margin-top: 10px;
+	
+}
+font.fc {
+    margin-top: 10px;
+}
+	
+#flash {
+    height: 100%;
+	width: 100%;
+	margin: -21% 46%;
+	color: green;
+	font-size: 144%;
+}
+#hideMe {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
+}
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+#error {
+    margin-top: -6%;
+}
+.header-img
+{
+	width: 25%;
+margin-right: 36%;
+}
+#user {
+    margin-left: 35%;
+margin-top: -23%;
+
+}
+#move-text{
+	width: 25%;
+margin-right: 28%
+}
+
+#drop1 {
+    margin-left: 53%;
+margin-top: -19%;
+}
+.header-img1, .header-img2, .header-img3, .header-img4, .header-img5 {
+margin-left: 15%;
+}
+	
+.header-img1 {
+    width: 26%;
+margin-top: 3%;
+
+}
+#drop2 {
+    margin-left: 53%;
+margin-top: -20%;
+}
+.header-img2 {
+    width: 26%;
+margin-top: -1%;
+
+}
+#drop3 {
+   margin-left: 49%;
+margin-top: -14%;
+}
+.header-img3 {
+    width: 29%;
+margin-top: -1%;
+
+}
+#drop4 {
+   margin-left: 54%;
+margin-top: -16%;
+font-size: 13px;
+}
+.header-img4 {
+    width: 27%;
+margin-top: 1%;
+;
+}
+#drop5 {
+    margin-left: 44%;
+margin-top: -16%;
+font-size: 10px;
+}
+.header-img5 {
+    width: 26%;
+margin-top: -7%;
+
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 51%; /* Full width */
+     /* Full height */
+    /*! overflow: auto; */ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(30,0,0,0); /* Black w/ opacity */
+    padding-top: 4%;
+    float: center;
+    margin-left: 24%;
+    margin-top: -11%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: whitesmoke;
+    margin: 25% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+    /*! border: 1px solid #888; */
+    width: 100; /* Could be more or less, depending on screen size */
+    height: 305px;
+}
+
+/* The Close Button (x) *
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 60s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+ #mapCanvas {
+	width: 41%;
+	height: 200px;
+	margin-left: 58%;
+	margin-top: -28%;
+	}
+	 #infoPanel {
+	float: left;
+	margin-left: 10px;
+	}
+#infoPanel div {
+	margin-bottom: 5px;
+}
+
+hideMe {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 10s forwards;
+}
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}

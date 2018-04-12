@@ -1,0 +1,768 @@
+html
+{
+	overflow-x:hidden;
+}
+body
+{
+background-color:cadetblue;;
+}
+div.header 
+{
+	background-color: black;
+	color: white;
+	font-size: 26px;
+	margin: -6% -7px;
+	display: inline-flex;
+	width: 100%;
+	position: fixed;
+	box-sizing: border-box;
+}
+font.fd
+ {
+	margin-left: 39%;
+	position: absolute;
+	margin-top: 20%;
+	
+}
+font.fc
+{
+	position: absolute;
+	margin-top: 20%;
+}
+button
+{
+	background-color: black;
+	font-size:16px;
+	color:white;
+	margin: -7% 9px;
+	text-decoration:none;
+}	
+.dropbtn 
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 6px;
+	font-size: 11px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+.dropdown 
+{
+	display: inline-block;
+	margin-left: auto;
+}
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color:grey;
+	width: 21%;
+	font-size:18px;
+	margin: 1%;
+}
+.dropdown-content a
+{
+	color: white;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+	float:right;
+	font-size:80%	
+}
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+.header-img
+{
+	width: 15%;
+	margin-right: 31%;
+	margin-top: 10%;
+}
+#user {
+    margin-left: 55%;
+    margin-top: -13%;
+
+}
+#move-text{
+	width: 25%;
+margin-right: 28%
+}
+
+#move-text1 {
+    margin-left: 48%;
+margin-top: -19%;
+}
+#move-text6 {
+    margin-left: 54%;
+margin-top: -13%;
+}
+.header-img1 {
+    width: 14%;
+margin-top: 1%;
+margin-left: 27%;
+}
+.header-img6 {
+    width: 14%;
+margin-top: 3%;
+margin-left: 15%;
+}
+#move-text2 {
+    margin-left: 54%;
+margin-top: -12%;
+}
+.header-img2 {
+    width: 14%;
+margin-top: -3%;
+margin-left: 27%;
+}
+#move-text3 {
+  margin-left: 55%;
+margin-top: -11%;
+}
+.header-img3 {
+    width: 13%;
+margin-top: -3%;
+margin-left: 28%;
+}
+#move-text4 {
+   margin-left: 54%;
+margin-top: -14%;
+font-size: 13px;
+}
+.header-img4 {
+    width: 14%;
+margin-top: -2%;
+margin-left: 27%;
+}
+#move-text5 {
+    margin-left: 55%;
+margin-top: -8%;
+font-size: 11px;
+}
+.header-img5 {
+    width: 18%;
+margin-top: -2%;
+margin-left: 25%;
+}
+
+.content {
+    margin-top: 6%;
+}
+p
+{
+	float:left;
+}
+.sort
+{
+	height: 50px;
+	width: 50px;
+	margin-top: 7%;
+	background-color: black;
+}
+table 
+{
+	border-collapse: collapse;
+	table-layout:fixed;
+	margin:61px -4px;
+}	
+th, td 
+{
+	text-align:center;
+	padding: 8px;
+	border-bottom : 2px solid white;
+}
+th 
+{
+	background-color: green;
+	color: black;
+	height:50px;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: bold;
+}
+td 
+{
+	font-variant : small-caps;
+}
+table, th, td 
+{
+	border: 2px solid black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+.pg-normal 
+{
+   color: white;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 8px 20px;
+}
+#pageNavPosition
+{
+	margin-bottom:23px;
+}
+.pg-selected 
+{
+	background-color:blue;
+    color: white;
+    font-weight: bold;        
+    text-decoration: underline;
+    cursor: pointer;
+     padding : 8px 20px; 
+}
+#move-top 
+{
+	margin-top: -12%;
+}
+
+div.footer 
+{
+	    border: 2px solid;
+    background-color: black;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    display: inline-block;
+    position: fixed;
+
+}
+
+#top 
+{
+	float:left;
+	margin-top: 1%;
+}
+#move
+{
+	float:left;
+	margin-left:-119px;
+}		
+
+div.move-right
+{
+	float:right;
+}.footer-img
+{
+	height:40px;
+	width:40px;
+}
+#flash {
+    height: 100%;
+	width: 100%;
+	margin: -235% 39%;
+	top: -595px;
+	color: whitesmoke;
+	position: relative;
+    /*! top: 8%; */
+}
+#hideMe {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
+    font-size: 25px;
+}
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+textarea {
+    background-color: cadetblue;
+    border: 0;
+   
+}
+
+#programhistory {
+    margin-bottom: 6%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 13%; /* Full width */
+    /*! height: 50%; */ /* Full height */
+    /*! overflow: auto; */ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(30,0,0,0); /* Black w/ opacity */
+    padding-top: 3%;
+    float: center;
+    margin-left: 43%;
+    margin-top: 8%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: orange;
+    margin: 25% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+    /*! border: 1px solid #888; */
+    width: 100; /* Could be more or less, depending on screen size */
+    height: 78px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+#pdf
+{
+margin-bottom:2%;
+}
+html
+{
+	overflow-x:hidden;
+}
+body
+{
+background-color:cadetblue;;
+}
+div.header 
+{
+	background-color: black;
+	color: white;
+	font-size: 26px;
+	margin: -6% -7px;
+	display: inline-flex;
+	width: 100%;
+	position: fixed;
+	box-sizing: border-box;
+	height: 47px;
+}
+font.fd
+ {
+	margin-left: 39%;
+	position: absolute;
+	margin-top: 20%;
+	
+}
+font.fc
+{
+	position: absolute;
+	margin-top: 20%;
+}
+button
+{
+	background-color: black;
+	font-size:16px;
+	color:white;
+	margin: -7% 9px;
+	text-decoration:none;
+}	
+.dropbtn 
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 6px;
+	font-size: 11px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+.dropdown 
+{
+	display: inline-block;
+	margin-left: auto;
+	width: 14%;
+}
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color:grey;
+	width: 13%;
+	font-size:13px;
+	/*! margin: 0%,-28px; */
+	margin-top: 19%;
+	margin-left: 9px;
+}
+.dropdown-content a
+{
+	color: white;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+	float:right;
+	font-size:80%	
+}
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+.header-img
+{
+	width: 15%;
+	margin-right: 31%;
+	margin-top: 8%;
+}
+#user {
+    margin-left: 55%;
+    margin-top: -13%;
+
+}
+#move-text{
+	width: 25%;
+margin-right: 28%
+}
+
+#move-text1 {
+    margin-left: 48%;
+margin-top: -19%;
+}
+#move-text6 {
+    margin-left: 54%;
+margin-top: -13%;
+}
+.header-img1 {
+    width: 14%;
+margin-top: 1%;
+margin-left: 27%;
+}
+.header-img6 {
+    width: 14%;
+margin-top: 3%;
+margin-left: 15%;
+}
+#move-text2 {
+    margin-left: 54%;
+margin-top: -12%;
+}
+.header-img2 {
+    width: 14%;
+margin-top: -3%;
+margin-left: 27%;
+}
+#move-text3 {
+  margin-left: 55%;
+margin-top: -11%;
+}
+.header-img3 {
+    width: 13%;
+margin-top: -3%;
+margin-left: 28%;
+}
+#move-text4 {
+   margin-left: 54%;
+margin-top: -14%;
+font-size: 13px;
+}
+.header-img4 {
+    width: 14%;
+margin-top: -2%;
+margin-left: 27%;
+}
+#move-text5 {
+    margin-left: 55%;
+margin-top: -15%;
+font-size: 15px;
+}
+.header-img5 {
+    width: 12%;
+margin-top: -2%;
+margin-left: 29%;
+}
+
+.content {
+    margin-top: 6%;
+}
+p
+{
+	float:left;
+}
+.sort
+{
+	height: 50px;
+	width: 50px;
+	margin-top: 7%;
+	background-color: black;
+}
+table 
+{
+	border-collapse: collapse;
+	table-layout:fixed;
+	margin:61px -4px;
+}	
+th, td 
+{
+	text-align:center;
+	padding: 8px;
+	border-bottom : 2px solid white;
+}
+th 
+{
+	background-color: green;
+	color: black;
+	height:50px;
+	font-style: italic;
+	font-size: 30px;
+	font-weight: bold;
+}
+td 
+{
+	font-variant : small-caps;
+}
+table, th, td 
+{
+	border: 2px solid black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+}
+
+.pg-normal 
+{
+   color: white;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 8px 20px;
+}
+#pageNavPosition
+{
+	margin-bottom:23px;
+}
+.pg-selected 
+{
+	background-color:blue;
+    color: white;
+    font-weight: bold;        
+    text-decoration: underline;
+    cursor: pointer;
+     padding : 8px 20px; 
+}
+#move-top 
+{
+	margin-top: -12%;
+}
+
+div.footer 
+{
+	    border: 2px solid;
+    background-color: black;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    display: inline-block;
+    position: fixed;
+
+	    margin-left: -10px;
+}
+
+#top 
+{
+	float:left;
+	margin-top: 1%;
+}
+#move
+{
+	float:left;
+	margin-left:-119px;
+}		
+
+div.move-right
+{
+	float:right;
+}.footer-img
+{
+	height:40px;
+	width:40px;
+}
+#flash {
+   color: white;
+margin-top: 22%;
+margin-left: 43%
+    /*! top: 8%; */
+}
+#hideMe {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
+    font-size: 25px;
+}
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+textarea {
+    background-color: cadetblue;
+    border: 0;
+   
+}
+
+#programhistory {
+    margin-bottom: 6%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 13%; /* Full width */
+    /*! height: 50%; */ /* Full height */
+    /*! overflow: auto; */ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(30,0,0,0); /* Black w/ opacity */
+    padding-top: 3%;
+    float: center;
+    margin-left: 43%;
+    margin-top: 8%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: orange;
+    margin: 25% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+    /*! border: 1px solid #888; */
+    width: 100; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+#pdf
+{
+margin-bottom:10%;
+}
+
+.modal1 {
+     display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 49%; /* Full width */
+     /* Full height */
+    /*! overflow: auto; */ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(30,0,0,0); /* Black w/ opacity */
+    padding-top: 4%;
+    float: center;
+    margin-left: 24%;
+    margin-top: -3%;
+}
+.modal-content1 {
+     background-color: whitesmoke;
+    margin: 25% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+    /*! border: 1px solid #888; */
+    width: 100; /* Could be more or less, depending on screen size */
+    height: 230px;
+}
+#mapCanvas {
+	width: 57%;
+	height: 200px;
+	margin-left: 43%;
+	margin-top: -24%;
+	}
+	 #infoPanel {
+	float: left;
+	margin-left: 10px;
+	}
+#infoPanel div {
+	margin-bottom: 5px;
+}
+
+#email {
+    margin-left: -17%;
+}
+
+#cancelform {
+    margin-top: 2%;
+}

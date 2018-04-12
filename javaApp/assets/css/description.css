@@ -1,0 +1,389 @@
+div.header1 
+{
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	display: inline-flex;
+	width: 100%;
+	position: absolute;
+	box-sizing: border-box;
+	top: 0;
+	margin: 0% -7px;
+}
+div.move-right 
+{
+	margin-top: 10px;
+margin-left: auto;
+}
+.footer-image
+{
+	height: 40px; 
+	width: 40px;
+}
+body
+{
+background-color:cadetblue;;
+}
+p
+{
+	float:left;
+	display:inline-block;
+}
+pre 
+{
+    display: block;
+    font-family: m;
+    white-space: pre-wrap;
+    margin: 1em 0;
+}
+#move-top 
+{
+	margin-top: -12%;
+}
+
+div.footer 
+{
+	border: 2px solid;
+background-color: black;
+color: white;
+width: 100%;
+bottom: 0;
+margin: 0 -50px;
+display: inline-block;
+position:fixed;
+}
+
+#top 
+{
+	float:left;
+	margin-top: 2%;
+}
+#move
+{
+	float:left;
+	margin-left:-119px;
+}		
+
+div.move-right
+{
+	float:right;
+}.footer-img
+{
+	height:40px;
+	width:40px;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+	
+
+div.top
+{
+	margin-top: 22px;
+	margin-left: -120px;
+	display:inline-block;	
+} 
+body
+{
+    overflow-y:scroll;
+
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: cornsilk;
+    }
+}
+div.container1 
+{
+	margin-bottom:80px;
+	padding:3%;
+	margin-top:60px;
+	height:400%;
+}
+.dropdown-image
+{
+	width: 15%;
+	margin-left: -66%;
+	margin-top: -4%;
+}
+
+button
+{
+	background-color: black;
+	font-size:16px;
+	color:white;
+	margin: 0px 3px;
+	text-decoration:none;
+}	
+.dropbtn1
+{
+	background-color: #4CAF50;
+color: white;
+padding: 3%;
+font-size: 11px;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+.dropdown1 
+{
+	display: inline;
+margin-left: auto;
+}
+.dropdown-content1
+{
+	display: none;
+	position: absolute;
+	background-color:grey;
+	width: 20%;
+	font-size:21px;
+}
+.dropdown-content1 a
+{
+	color: white;
+	padding: 2% 4%;
+	text-decoration: none;
+	display: block;
+	float:right;
+	font-size:57%;	
+}a
+#input {
+}
+#output {
+	/*!  */
+}
+.dropdown1:hover .dropdown-content1
+{
+	display: block;
+}
+font.fd1
+ {
+	/*!  */
+	
+	/*!  */
+	/*!  */
+	margin-left: auto;
+	vertical-align: middle;
+	margin-top: 6px;
+}
+font.fc1
+{
+	margin-top: 3px;
+}
+
+
+.header-img
+{
+	width: 15%;
+	margin-right: 19%;
+}
+#img {
+    margin-left: 59%;
+    margin-top: -11%;
+
+}
+#desc-text{
+	width: 25%;
+margin-right: 28%
+}
+
+#desc-text1 {
+    margin-left: 54%;
+margin-top: -12%;
+    font-size: 16px;
+}
+.desc-img1 {
+    width: 13%;
+margin-top: -4%;
+margin-left: 11%;
+}
+#desc-text2 {
+    margin-left: 56%;
+margin-top: 4%;
+    font-size: 16px;
+}
+
+#desc-text3 {
+   margin-left: 49%;
+margin-top: -14%;
+}
+.desc-img3 {
+    width: 29%;
+margin-top: -1%;
+margin-left: 15%;
+}
+#desc-text4 {
+   margin-left: 60%;
+margin-top: -10%;
+font-size: 16px;
+}
+.desc-img4 {
+    width: 18%;
+margin-top: -3%;
+margin-left: 10%;
+}
+#desc-text5 {
+    margin-left: 46%;
+margin-top: -9%;
+font-size: 16px;
+}
+.desc-img5 {
+    width: 15%;
+margin-top: -5%;
+margin-left: 11%;
+}
+
+#img1 {
+    font-size: 16px;
+    margin-left: 57%;
+    margin-top: -3%;
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 49%; /* Full width */
+     /* Full height */
+    /*! overflow: auto; */ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(30,0,0,0); /* Black w/ opacity */
+    padding-top: 4%;
+    float: center;
+    margin-left: 24%;
+    margin-top: -3%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: whitesmoke;
+    margin: 25% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+    /*! border: 1px solid #888; */
+    width: 100; /* Could be more or less, depending on screen size */
+    height: 230px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 60s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+table {
+    margin-left: 10%;
+}
+th {
+    background-color: bisque;
+}
+
+
+#flash {
+  color: white;
+margin-top: -25%;
+margin-left: 34%;
+position: fixed;
+    /*! top: 8%; */
+}
+#hideMe {
+    -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
+    font-size: 25px;
+    color: lightgreen;
+}
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.blink_text {
+    margin-left: 123px;
+    /*! margin-bottom: -131px; */
+    font-size: 12px;
+}
+
+.header-img6 {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: -59%;
+}
+#move-text6 {
+    margin-left: 57%;
+    margin-top: 4%;
+    font-size: 12px;
+}
+.blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+	color: red;
+	margin-left: -23%;
+	margin-top: 72px;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }

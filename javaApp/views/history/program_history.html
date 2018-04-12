@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv = "content-style-type" content = "text/css"/>
+    <meta http-equiv = "content-script-type" content = "text/javascript"/>
+     <link rel = "stylesheet" type="text/css" href = "/Asset/assets/?file=common.css"/>
+    <script  src="/Asset/assets/?file=paging.js"></script>
+ </head>
+ <body onload="return false;">
+	 <div class="wrapper">
+		<div class="header">
+			<font class = "fc">Java</font>
+			<font class = "fd">Program History</font>
+			<div class="dropdown">
+				<button class="dropbtn" onclick="document.getElementById('myModal').style.display='block';" style="width:auto;"><img class="header-img"src="/Asset/assets/?file=guest.png" /><a href = "/users/edit"><p id="user">Guest</p></a></button>
+				<div class="dropdown-content">
+					<a onclick="goBack()" href="#">
+						<img class="loghistory-img" src="/Asset/assets/?file=back.jpg" alt="Back" /><pre id="log-his">Back</pre>
+</a>					<a href="//Program/index/?order=ASC">
+						<img class="loghistory-img" src="/Asset/assets/?file=home.png" alt="Home" /><pre id="log-his">Home</pre>
+</a>					<a href="/Mail/contactUs/contacus">
+						<img class="loghistory-img" src="/Asset/assets/?file=contact.png" alt="Contact" /><pre id="log-his">Contact</pre>
+</a>					<a href="/History/userHistory/loginhistory">
+						<img class="loghistory-img" src="/Asset/assets/?file=history.jpg" alt="History" /><pre id="log-his">LoginHistory(count)</pre>
+</a>					<a href="/User/logout/logout">
+						<img class="loghistory-img" src="/Asset/assets/?file=logout.jpg" alt="Logout" /><pre id="log-his">Logout</pre>
+</a>				</div>
+			</div>
+		</div>
+	
+	<div class ="content">
+	<center>
+		<table id="results" border = 6>
+			<tr>
+				<th>SERIAL NUMBER</th>
+				<th>PROGRAM ID</th>
+				<th>INPUT</th>
+				<th>OUTPUT</th>
+				<th>TIME</th>
+				<th>DATE</th>
+				<th>IP</th>
+			</tr>
+			Data
+		</table>	
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id = "pdf">Generate PDF</button>
+		<div id="id01" class="modal2">
+  
+  <form class="modal-content2 animate">
+   <a href = "/Mail/sendProgramPdf/pdf"><input id="email" type="radio" name="email" value="sendmail">Email the pdf<br></a>
+   <a href="/History/programHistorypdf/pdf"><input type="radio">Download the pdf<br></a> 
+   <button id="cancelform" type="button"  onclick="document.getElementById('id01').style.display='none';">Cancel</button>
+  </form>
+	</div>
+	</div>
+	<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    <div id="myModal" class="modal">
+		<div class="modal-content">
+			<form class="modal-content animate" action = "/User/update/?">
+				<center><h>User Profile</h></center>
+				Name:<input type="text" name="Username" value = "username" ></br></br>
+				Email:<input type="text" name="Email" value= "email" readonly ></br></br>
+				<label>Address</label><br> <textarea name = "address" value= "" id = "address"></textarea>
+				<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+				<script  src="/AssetController/assets/?file=maps.js"></script>
+				<div id="mapCanvas"></div>
+					<div id="infoPanel">
+						<div id="markerStatus"></div>
+					</div>
+				<textarea  placeholder="latlang" style = "display:none" readonly  id = "info" name="latitude"></textarea>
+				<button type="submit">Update</button> <button type="button" onclick="document.getElementById('myModal').style.display='none';">Cancel</button>
+			</form>
+		</div>
+
+
+</div>
+flash
+
+		<div class="footer">
+			<p id="top">Ananth Kumar  Copyright&copy;2017</p>
+			<br>
+			<p id="move"></p>
+				<div class="move-right">
+					<div id="move-top">
+						<a href = "https://www.facebook.com/cananthkumar" target = "_blank"><img class="footer-img" src = "/Asset/assets/?file=facebook.png"></a>
+						<a href = "https://plus.google.com/u/0/" target = "_blank"><img class="footer-img" src = "/Asset/assets/?file=googleplus.png"></a>
+						<a href = "https://www.linkedin.com/feed/" target = "_blank"><img class="footer-img" src = "/Asset/assets/?file=linkendin.png"></a></div>
+				</div>
+		</div>
+ </body>
+</html>
